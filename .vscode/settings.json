@@ -10,6 +10,6 @@
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
   "[css]": {
-    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
