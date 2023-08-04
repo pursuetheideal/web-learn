@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>网页结构练习</title>
+  </head>
+  <body>
+    <h1>一号标题</h1>
+    <h2>二号标题</h2>
+    <h3>三号标题</h3>
+    <h4>四号标题</h4>
+    <h5>五号标题</h5>
+    <h6>六号标题</h6>
+
+    <p>段落</p>
+
+    <div style="color: #0000ff">
+      <h3>这是一个在 div 元素中的标题。</h3>
+      <p>这是一个在 div 元素中的文本。</p>
+    </div>
+
+    <div style="color: #0000ff">
+      <h3>这是一个在 div 元素中的标题</h3>
+      <p>这是一个在 div 元素中</p>
+    </div>
+
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+      
+    <ul>
+      <li>列表</li>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+
+    <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+      
+    <form>表单标签</form>
+
+    <form action="demo-form.php">
+      First name: <input type="text" name="FirstName" value="Mickey" /><br />
+      Last name: <input type="text" name="LastName" value="Mouse" /><br />
+      <input type="submit" value="提交" />
+    </form>
+    <form action="demo-from.php">
+      First name: <input type="text" name="FirstName" value="Mickey" /><br />
+      Last name: <input type="text" name="LastName" value="mouse" /><br />
+      <input type="submit" value="提交" />
+    </form>
+    <table border="1">
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>$80</td>
+      </tr>
+    </table>
+
+    <table>
+      定义表格
+    </table>
+    <table border="1">
+      <tr>
+        <th>Month</th>
+        <th>Saving</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>$100</td>
+      </tr>
+    </table>
+    <canvas id="myCanvas">你的浏览器不支持 HTML5 canvas 标签。</canvas>
+
+    <script>
+      var c = document.getElementById('myCanvas');
+      var ctx = c.getContext('2d');
+      ctx.fillStyle = '#FF0000';
+      ctx.fillRect(0, 0, 80, 100);
+    </script>
+    <canvas>图形</canvas>
+    <canvas id="myCanvas">你的浏览器不支持 HTML5 canvas 标签。</canvas>
+
+    <script>
+      var c = document.getElementById('myCanvas');
+      var ctx = c.getContext('2d');
+      ctx.fillStyle = '#FF0000';
+      ctx.fillRect(0, 0, 80, 100);
+    </script>
+    <ol style="list-style-type: upper-roman">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+    <ol>
+      有序列表
+    </ol>
+  
+    <dl>
+      <dt>Coffee</dt>
+      <dd>Black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>White cold drink</dd>
+    </dl>
+    <dt>定义项目</dt>
+    <dl>
+      <dt>Coffee</dt>
+      <dd>Black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>White cold drink</dd>
+    </dl>
+    <figure>
+      <img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228" />
+    </figure>
+    <figure>定义内容</figure>
+    <figure>
+      <img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228" />
+    </figure>
+    <pre>
+      此例演示如何使用 pre 标签
+      对空行和    空格
+      进行控制
+    </pre>
+    <pre>文本</pre>
+    <pre>
+    此例演示如何使用 pre 标签
+    对空行和    空格
+    进行控制
+    </pre>
+
+    <article>
+      <header>
+        <h1>Internet Explorer 9</h1>
+        <p><time pubdate datetime="2011-03-15"></time></p>
+      </header>
+      <p>Windows Internet Explorer 9(缩写为 IE9 )是在2011年3月14日21:00发布的</p>
+    </article>
+
+    <header>定义页头</header>
+    <article>
+      <header>
+        <h1>Internet Explorer 9</h1>
+        <p><time pubdate datetime="2011-03-15"></time></p>
+      </header>
+      <p>Windows Internet Explorer 9(缩写为 IE9)是在2011年3月14日21：00发布的</p>
+    </article>
+
+    <nav>
+      <a href="/html/">HTML</a> | <a href="/css/">CSS</a> | <a href="/js/">JavaScript</a> |
+      <a href="/jquery/">jQuery</a>
+    </nav>
+    <nav>
+      定义导航
+      <a href="/html/">HTML</a> | <a href="/css/">CSS</a> | <a href="/js/">JavaScript</a> |
+      <a href="/jquery/">jQuery</a>
+    </nav>
+    <main>
+      <h1>Web 浏览器</h1>
+      <p>Google Chrome、Firefox 以及 Internet Explorer 是目前最流行的浏览器。</p>
+    </main>
+    <article>
+      <h1>Google Chrome 浏览器</h1>
+      <p>Google Chrome 浏览器是由 Google 开发的一款免费的开源 web 浏览器，于 2008 年发布。</p>
+    </article>
+    <article>
+      <h1>Internet Explorer 浏览器</h1>
+      <p>Internet Explorer 浏览器由微软开发的一款免费的 web 浏览器，发布于 1995 年。</p>
+
+      <h1>Mozilla Firefox 浏览器</h1>
+      <p>Firefox 浏览器是一款来自 Mozilla 的免费开源 web 浏览器，发布于 2004 年。</p>
+    </article>
+    <p>My family and I visited The Epcot center this summer.</p>
+    <aside>
+      <h4>Epcot Center</h4>
+      <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+    </aside>
+
+    <aside>侧栏</aside>
+    <p>My family and I visited The Epcot center this summer.</p>
+    <aside>
+      <h4>Epcot Center</h4>
+      <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+    </aside>
+    <p>He named his car <i>The lightning</i>, because it was very fast.</p>
+
+    <p>He named his car <i>The lightning</i>, because it was very fast.</p>
+    <em>强调文本</em><br />
+    <strong>加粗文本</strong><br />
+    <dfn>定义项目</dfn><br />
+    <code>一段电脑代码 print("Hello World")</code><br />
+    <samp>计算机样本</samp><br />
+    <kbd>键盘输入</kbd><br />
+    <var>变量</var>
+
+    <em>强调文本</em><br />
+    <strong>加粗文本</strong><br />
+    <dfn>定义项目</dfn><br />
+    <code>一段电脑代码 print("Hello World")</code><br />
+    <samp>计算机样本</samp><br />
+    <kbd>键盘输入</kbd><br />
+    <var>变量</var>
+
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+    <form action="demo-form.php" method="get">
+      <input list="browsers" name="browser" />
+      <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+
+      <input type="submit" />
+    </form>
+
+    <form action="demo-form.php" method="get">
+      <input list="browsers" name="browser" />
+      <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+
+      <input type="submit" />
+    </form>
+
+    <aside>
+      <h4>Epcot Center</h4>
+      <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+    </aside>
+
+    <aside>
+      <h4>Epcot Center</h4>
+      <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+    </aside>
+
+    <article>
+      <h1>Internet Explorer 9</h1>
+      <p>Windows Internet Explorer 9(缩写为 IE9 )在2011年3月14日21:00 发布。</p>
+    </article>
+
+    <article>
+      <h1>Internet Explorer 9</h1>
+      <p>Windows Internet Explorer 9(缩写为 IE9 )在2011年3月14日21:00 发布。</p>
+    </article>
+
+    <section>
+      <h1>WWF</h1>
+      <p>
+        The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the
+        conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was
+        founded in 1961.
+      </p>
+    </section>
+
+    <section>
+      <h1>WWF</h1>
+      <p>
+        The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the
+        conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was
+        founded in 1961.
+      </p>
+    </section>
+
+    <footer>
+      <p>Posted by: Hege Refsnes</p>
+      <p><time pubdate datetime="2012-03-01"></time></p>
+    </footer>
+
+    <footer>
+      <p>Posted by: Hege Refsnes</p>
+      <p><time pubdate datetime="2012-03-01"></time></p>
+    </footer>
+
+    <a href="https://www.runoob.com">访问菜鸟教程!</a>
+
+    <a href="https://www.runoob.com">访问菜鸟教程!</a>
+
+    <p>
+      我的母亲有 <span style="color: blue; font-weight: bold">蓝色</span> 的眼睛，我的父亲有
+      <span style="color: darkolivegreen; font-weight: bold">碧绿色</span> 的眼睛。
+    </p>
+
+    <p>
+      我的母亲有 <span style="color: blue; font-weight: bold">蓝色</span> 的眼睛，我的父亲有
+      <span style="color: darkolivegreen; font-weight: bold">碧绿色</span> 的眼睛。
+    </p>
+
+    <form action="demo_form.php">
+      <label for="male">Male</label>
+      <input type="radio" name="sex" id="male" value="male" /><br />
+      <label for="female">Female</label>
+      <input type="radio" name="sex" id="female" value="female" /><br /><br />
+      <input type="submit" value="提交" />
+    </form>
+
+    <form action="demo_form.php">
+      <label for="male">Male</label>
+      <input type="radio" name="sex" id="male" value="male" /><br />
+      <label for="female">Female</label>
+      <input type="radio" name="sex" id="female" value="female" /><br /><br />
+      <input type="submit" value="提交" />
+    </form>
+
+    <p>这是一个普通的文本- <b>这是一个加粗文本</b>。</p>
+
+    <p>这是一个普通的文本- <b>这是一个加粗文本</b>。</p>
+
+    <p>This is a <u>paragraph</u>.</p>
+
+    <p>This is a <u>paragraph</u>.</p>
+
+    <p>He named his car <i>The lightning</i>, because it was very fast.</p>
+
+    <p>He named his car <i>The lightning</i>, because it was very fast.</p>
+
+    <em>强调文本</em>
+
+    <em>强调文本</em>
+
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+
+    <input list="browsers" />
+    <datalist id="browsers">
+      <option value="Internet Explorer"></option>
+      <option value="Firefox"></option>
+      <option value="Chrome"></option>
+      <option value="Opera"></option>
+      <option value="Safari"></option>
+    </datalist>
+
+    <input list="browsers" />
+    <datalist id="browsers">
+      <option value="Internet Explorer"></option>
+      <option value="Firefox"></option>
+      <option value="Chrome"></option>
+      <option value="Opera"></option>
+      <option value="Safari"></option>
+    </datalist>
+
+    <img decoding="async" src="smiley-2.gif" alt="Smiley face" width="42" height="42" />
+
+    <img decoding="async" src="smiley-2.gif" alt="Smiley face" width="42" height="42" />
+
+    <audio controls>
+      <source src="horse.ogg" type="audio/ogg" />
+      <source src="horse.mp3" type="audio/mpeg" />
+      您的浏览器不支持 audio 元素。
+    </audio>
+
+    <audio controls>
+      <source src="horse.ogg" type="audio/ogg" />
+      <source src="horse.mp3" type="audio/mpeg" />
+      您的浏览器不支持 audio 元素。
+    </audio>
+
+    <video width="320" height="240" controls>
+      <source src="movie.mp4" type="video/mp4" />
+      <source src="movie.ogg" type="video/ogg" />
+      您的浏览器不支持 video 标签。
+    </video>
+
+    <video width="320" height="240" controls>
+      <source src="movie.mp4" type="video/mp4" />
+      <source src="movie.ogg" type="video/ogg" />
+      您的浏览器不支持 video 标签。
+    </video>
+
+    <form action="demo_form.php">
+      First name: <input type="text" name="fname" /><br />
+      Last name: <input type="text" name="lname" /><br />
+      <input type="submit" value="提交" />
+    </form>
+    <form action="demo_form.php">
+      First name: <input type="text" name="fname" /><br />
+      Last name: <input type="text" name="lname" /><br />
+      <input type="submit" value="提交" />
+    </form>
+
+    <select>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </select>
+
+    <select>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </select>
+
+    <select>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="opel">Opel</option>
+      <option value="audi">Audi</option>
+    </select>
+
+    <select>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="opel">Opel</option>
+      <option value="audi">Audi</option>
+    </select>
+
+    <textarea rows="10" cols="30">
+我是一个文本框。
+</textarea
+    >
+
+    <textarea rows="10" cols="30">
+我是一个文本框。
+</textarea
+    >
+
+    <table border="1">
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>$80</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>$80</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <td>Cell A</td>
+        <td>Cell B</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <td>Cell A</td>
+        <td>Cell B</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td>$180</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td>$180</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td>$180</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td>$180</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td>$180</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td>$180</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table border="1">
+      <caption>
+        Monthly savings
+      </caption>
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <caption>
+        Monthly savings
+      </caption>
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+    </table>
+  </body>
+</html>
