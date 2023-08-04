@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div p {
+        background-color: red;
+        /* border: 1px solid orange; */
+      }
+      div span {
+        background-color: blue;
+      }
+      div p span {
+        background-color: yellow;
+        /* color: red; */
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>
+        111 div p
+        <span>222div p span</span>
+      </p>
+      <div>
+        333div div
+        <p>444div div p<span>777span span</span></p>
+      </div>
+      <span>555div <span>666span span</span></span>
+    </div>
+  </body>
+</html>
+<!-- 222 444 777  -->
+<!-- 222 444 777 -->
+<!-- 222 777 -->
